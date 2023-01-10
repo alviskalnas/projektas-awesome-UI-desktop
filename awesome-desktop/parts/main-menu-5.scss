@@ -1,0 +1,310 @@
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 730px;
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1440px;
+        height: 200px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            width: 720px;
+            height: 200px;
+
+            h1 {
+                width: 720px;
+                height: 33px;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 33px;
+                text-transform: uppercase;
+                color: #f3b562;
+                margin: 0 0 17px 140px;
+            }
+
+            h2 {
+                width: 720px;
+                height: 41px;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 41px;
+                line-height: 110%;
+                text-transform: uppercase;
+                color: #647b64;
+                margin: 0 0 82px 140px;
+            }
+        }
+
+        .arrows-r-l {
+            display: flex;
+            flex-direction: row;
+            width: 720px;
+            height: 200px;
+            align-items: center;
+            justify-content: flex-end;
+            .left {
+                margin: 0 0 30px 0;
+            }
+            .right {
+               width: 120px;
+               height: 120px;
+               margin: 0 0 12px 0; 
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        width: 1440px;
+        height: 430px;
+        column-gap: 40px;
+        margin: 0 0 0 140px;
+
+        .first-person {
+
+            width: 360px;
+            height: 419px;
+            background: rgb(240, 240, 240);
+            background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 21%);
+
+            .human {
+                margin: 32px 0 0 40px;
+                width: 159px;
+                height: 268px;
+            }
+
+            h1 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 116%;
+                width: 132px;
+                height: 19px;
+                top: -255px;
+                left: 200px;
+            }
+
+            h2 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 99px;
+                height: 17px;
+                margin: 0 65px 234px 0;
+                top: -260px;
+                left: 200px;
+            }
+
+            p {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 260px;
+                height: 63px;
+                margin: 24px 60px 32px 40px;
+                left: 3px;
+                top: -275px;
+            }
+        }
+
+        .second-person {
+
+            width: 360px;
+            height: 419px;
+            background: rgb(240, 240, 240);
+            background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 21%);
+
+            .human {
+                margin: 32px 0 0 40px;
+                width: 159px;
+                height: 268px;
+            }
+
+            h1 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 116%;
+                width: 132px;
+                height: 19px;
+                top: -255px;
+                left: 200px;
+            }
+
+            h2 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 99px;
+                height: 17px;
+                margin: 0 65px 234px 0;
+                top: -260px;
+                left: 200px;
+            }
+
+            p {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 260px;
+                height: 63px;
+                margin: 24px 60px 32px 40px;
+                left: 3px;
+                top: -275px;
+            }
+        }
+
+        .third-person {
+
+            width: 360px;
+            height: 419px;
+            background: rgb(240, 240, 240);
+            background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 21%);
+
+            .human {
+                margin: 32px 0 0 40px;
+                width: 159px;
+                height: 268px;
+            }
+
+            h1 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 116%;
+                width: 132px;
+                height: 19px;
+                top: -255px;
+                left: 200px;
+            }
+
+            h2 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 99px;
+                height: 17px;
+                margin: 0 65px 234px 0;
+                top: -260px;
+                left: 200px;
+            }
+
+            p {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 260px;
+                height: 63px;
+                margin: 24px 60px 32px 40px;
+                left: 3px;
+                top: -275px;
+            }
+        }
+
+        .fourth-person {
+
+            width: 360px;
+            height: 419px;
+            background: rgb(240, 240, 240);
+            background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 21%);
+
+            .human {
+                margin: 32px 0 0 40px;
+                width: 159px;
+                height: 268px;
+            }
+
+            h1 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 116%;
+                width: 132px;
+                height: 19px;
+                top: -255px;
+                left: 200px;
+            }
+
+            h2 {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 99px;
+                height: 17px;
+                margin: 0 65px 234px 0;
+                top: -260px;
+                left: 200px;
+            }
+
+            p {
+                position: relative;
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                color: #4f4f4f;
+                width: 260px;
+                height: 63px;
+                margin: 24px 60px 32px 40px;
+                left: 3px;
+                top: -275px;
+            }
+        }
+
+    }
+}

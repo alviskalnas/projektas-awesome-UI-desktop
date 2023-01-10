@@ -1,0 +1,223 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 630px;
+  padding: 0 0 0 140px;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  background: #f0dcc5;
+}
+.footer .awesome {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 230px;
+  margin: 99px 0 102px 0;
+}
+.footer .awesome .top-img {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+  height: 35.08px;
+  margin-bottom: 16.92px;
+}
+.footer .awesome .top-img .au {
+  width: 48.4px;
+  height: 35.08px;
+}
+.footer .awesome .top-img .ui {
+  width: 129px;
+  height: 17px;
+  margin: 9px 0 0 10.6px;
+}
+.footer .awesome p {
+  width: 249px;
+  height: 54px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 0 16px 0;
+}
+.footer .awesome h4 {
+  width: 195px;
+  height: 24px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 0 8px 0;
+}
+.footer .awesome h5 {
+  width: 195px;
+  height: 24px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 0 19px 0;
+}
+.footer .awesome .bottom-img {
+  display: flex;
+  flex-direction: row;
+  width: 195px;
+  height: 33px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.footer .awesome .bottom-img .cam-group {
+  width: 32px;
+  height: 32px;
+}
+.footer .awesome .bottom-img .cam-group .insta-cirkle {
+  width: 32px;
+  height: 32px;
+}
+.footer .awesome .bottom-img .cam-group .insta-cam {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  left: 7px;
+  top: -28px;
+}
+.footer .awesome .bottom-img .basketball {
+  width: 32px;
+  height: 32px;
+}
+.footer .awesome .bottom-img .twitter {
+  width: 32px;
+  height: 32px;
+}
+.footer .awesome .bottom-img .youtube {
+  width: 32px;
+  height: 32px;
+}
+.footer .company-con {
+  width: 170px;
+  height: 233px;
+  margin: 99px 0 99px 0;
+}
+.footer .company-con ul {
+  margin: 0;
+}
+.footer .company-con .company {
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #647b64;
+  margin: 0 0 24px 0;
+}
+.footer .company-con li {
+  display: inline-block;
+  width: 118px;
+  height: 26px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin: 0 0 12px 0;
+}
+.footer .support-con {
+  width: 170px;
+  height: 233px;
+  margin: 99px 0 99px 0;
+}
+.footer .support-con ul {
+  margin: 0;
+}
+.footer .support-con .support {
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #647b64;
+  margin: 0 0 24px 0;
+}
+.footer .support-con li {
+  display: inline-block;
+  width: 160px;
+  height: 26px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin: 0 0 12px 0;
+}
+.footer .email-field {
+  width: 300px;
+  height: 233px;
+  margin: 99px 0 99px 0;
+}
+.footer .email-field h1 {
+  width: 165px;
+  height: 20px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #647b64;
+  text-transform: uppercase;
+  margin: 0 0 13px 0;
+}
+.footer .email-field textarea {
+  width: 283px;
+  height: 113px;
+  margin: 0 0 28px 0;
+}
+.footer .email-field .paragraph-button {
+  width: 283px;
+  height: 56.6px;
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .email-field .paragraph-button h3 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 125.5%;
+  letter-spacing: 0.155em;
+  text-transform: uppercase;
+  color: #fefefe;
+  width: 176px;
+  height: 20px;
+  padding: 0 0 0 15px;
+}
+.footer .email-field .paragraph-button .arrow {
+  width: 166px;
+}
+.footer .email-field .paragraph-button .arrow .arrow-right {
+  display: flex;
+  flex-direction: row;
+  width: 22px;
+  height: 15px;
+  margin-left: 130px;
+}/*# sourceMappingURL=footer.css.map */

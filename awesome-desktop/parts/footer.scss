@@ -1,0 +1,239 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 630px;
+    padding: 0 0 0 140px;
+    column-gap: 70px;
+    background: #f0dcc5;
+
+    .awesome {
+       display: flex;
+       flex-direction: column; 
+       width: 260px;
+       height: 230px;
+       margin: 99px 0 102px 0;
+       
+       .top-img {
+        display: flex;
+        flex-direction: row;
+        width: 260px;
+        height: 35.08px;
+        margin-bottom: 16.92px;
+        .au {
+            width: 48.4px;
+            height: 35.08px;
+        }
+        .ui {
+            width: 129px;
+            height: 17px;
+            margin: 9px 0 0 10.6px;
+        }
+       }
+       
+       p {
+        width: 249px;
+        height: 54px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 132%;
+        letter-spacing: 0.04em;
+        color: #4f4f4f;
+        margin: 0 0 16px 0;
+       }
+       h4 {
+        width: 195px;
+        height: 24px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #4f4f4f;
+        margin: 0 0 8px 0;
+       }
+       h5 {
+        width: 195px;
+        height: 24px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #4f4f4f;
+        margin: 0 0 19px 0;
+       }
+
+       .bottom-img {
+        display: flex;
+        flex-direction: row;
+        width: 195px;
+        height: 33px;
+        column-gap: 16px;
+        .cam-group {
+            width: 32px;
+            height: 32px;
+            .insta-cirkle {
+                width: 32px;
+                height: 32px;
+            }
+            .insta-cam {
+                position: relative;
+                width: 18px;
+                height: 18px;
+                left: 7px;
+                top: -28px;
+            }
+        }
+        
+        .basketball {
+            width: 32px;
+            height: 32px;
+        }
+        .twitter {
+            width: 32px;
+            height: 32px;
+        }
+        .youtube {
+            width: 32px;
+            height: 32px;
+        }
+       }
+
+
+    }
+    .company-con {
+        width: 170px;
+        height: 233px;
+        margin: 99px 0 99px 0;
+         ul {
+            margin: 0;
+         }
+        .company {
+            display: inline-block;
+            width: 160px;
+            height: 30px;
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #647b64;
+            margin: 0 0 24px 0;
+            
+              
+        }
+        li {
+            display: inline-block;
+            width: 118px;
+            height: 26px;
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333333;
+            margin: 0 0 12px 0;
+              
+        }
+    }
+    .support-con {
+        width: 170px;
+        height: 233px;
+        margin: 99px 0 99px 0;
+        ul{
+            margin: 0;
+        }
+        .support {
+            display: inline-block;
+            width: 160px;
+            height: 30px;
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #647b64;
+            margin: 0 0 24px 0;  
+        }
+        li {
+            display: inline-block;
+            width: 160px;
+            height: 26px;
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333333;
+            margin: 0 0 12px 0;  
+        }
+    }
+    .email-field {
+        width: 300px;
+        height: 233px;
+        margin: 99px 0 99px 0;
+        h1 {
+            width: 165px;
+            height: 20px;
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #647b64;
+            text-transform: uppercase;
+            margin: 0 0 13px 0;
+        }
+        textarea {
+            
+            width: 283px;
+            height: 113px;
+            margin: 0 0 28px 0;
+            
+        }
+        .paragraph-button {
+
+            width: 283px;
+            height: 56.6px;
+            background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+            border-radius: 2px;
+            border: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            h3 {
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 125.5%;
+                letter-spacing: 0.155em;
+                text-transform: uppercase;
+                color: #fefefe;
+                width: 176px;
+                height: 20px;
+                padding: 0 0 0 15px;
+            }
+
+            .arrow {
+
+                width: 166px;
+
+                .arrow-right {
+                    display: flex;
+                    flex-direction: row;
+                    width: 22px;
+                    height: 15px;
+                    margin-left: 130px;
+                }
+            }
+
+        }
+    }
+}

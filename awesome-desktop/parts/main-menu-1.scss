@@ -1,0 +1,103 @@
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    height: 3510px;
+
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        width: 1440px;
+        height: 727px;
+
+        .ellipse-gray {
+            position: absolute;
+            width: 66px;
+            height: 141px;
+            left: 0px;
+            top: 567px;
+        }
+        .ellipse {
+          position: absolute;
+          width: 84px;
+          height: 84px;
+          left: 311px;
+          top: 268px;  
+        }
+        
+        .paragraph {
+            display: flex;
+            flex-direction: column;
+            width: 878px;
+            height: 100%;
+            padding: 115.99px 0 115.99px 180px;
+
+            h1 {
+                font-family: 'Avenir_Next_Pro/AvenirNextLTPro-Bold.otf';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 116%;
+                color: #333333;
+                width: 495px;
+                height: 110px;
+            }
+
+            p {
+                font-family: 'Avenir_Next_Pro/AvenirNextLTPro-BoldCn.otf';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 132%;
+                letter-spacing: 0.04em;
+                width: 479px;
+                height: 104px;
+                color: #4f4f4f;
+            }
+
+            .paragraph-button {
+                width: 350px;
+                height: 73px;
+                background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+                border-radius: 2px;
+                border: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                h3 {
+                    font-family: 'Avenir Next';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 125.5%;
+                    letter-spacing: 0.155em;
+                    text-transform: uppercase;
+                    color: #fefefe;
+                    width: 176px;
+                    height: 20px;
+                    padding-left: 29px;
+                }
+                .arrow {
+                    width: 166px;
+                    .arrow-right {
+                        display: flex;
+                        flex-direction: row;
+                        width: 22px;
+                        height: 15px;
+                        margin-left: 130px;
+                    }
+                }
+                
+            }
+        }
+
+        .pic {
+            width: 343px;
+            height: 585.91px;
+            .group-pic {
+                width: 343px;
+                height: 585.91px;
+            }
+        }
+    }
+}

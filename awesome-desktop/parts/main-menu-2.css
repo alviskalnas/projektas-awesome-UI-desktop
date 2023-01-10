@@ -1,0 +1,266 @@
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 630px;
+}
+.container-2 img.rectangle {
+  position: absolute;
+  width: 717px;
+  height: 153px;
+  left: -116px;
+  top: 847px;
+}
+.container-2 .MOT {
+  text-transform: uppercase;
+  width: 567px;
+  height: 630px;
+  margin-left: 140px;
+}
+.container-2 .MOT h3 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0 0 17px 0;
+  color: #f3b562;
+}
+.container-2 .MOT h1 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  color: #647b64;
+}
+.container-2 .MOT p {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  width: 450px;
+  height: 100px;
+  margin: 40px 0 40px 0;
+}
+.container-2 .MOT .paragraph-button {
+  width: 350px;
+  height: 73px;
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-2 .MOT .paragraph-button h3 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125.5%;
+  letter-spacing: 0.155em;
+  text-transform: uppercase;
+  color: #fefefe;
+  width: 176px;
+  height: 20px;
+  padding-left: 29px;
+  margin-bottom: -1px;
+}
+.container-2 .MOT .paragraph-button .arrow {
+  width: 166px;
+}
+.container-2 .MOT .paragraph-button .arrow .arrow-right {
+  display: flex;
+  flex-direction: row;
+  width: 22px;
+  height: 15px;
+  margin-left: 130px;
+}
+.container-2 .small-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 873px;
+  height: 100%;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.container-2 .small-container .CAR {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 237px;
+}
+.container-2 .small-container .CAR .image-small {
+  display: flex;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  margin: 40px 0 0 40px;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 .small-container .CAR .image-small .smart-car-dark {
+  width: 25px;
+  height: 25px;
+}
+.container-2 .small-container .CAR h4 {
+  width: 135px;
+  height: 31px;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  margin: 16px 113px 6px 40px;
+}
+.container-2 .small-container .CAR p {
+  width: 221px;
+  height: 51px;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 27px 45px 40px;
+}
+.container-2 .small-container .BOAT {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 237px;
+  border: solid #ffffff;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 5.87438px 31.33px rgba(155, 148, 148, 0.17);
+}
+.container-2 .small-container .BOAT .image-small {
+  width: 48px;
+  height: 48px;
+  margin: 40px;
+}
+.container-2 .small-container .BOAT .image-small .ship {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+.container-2 .small-container .BOAT .image-small .rectangle-white {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+.container-2 .small-container .BOAT h4 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  margin: 16px 113px 6px 40px;
+}
+.container-2 .small-container .BOAT p {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 27px 45px 40px;
+}
+.container-2 .small-container .BUS {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 237px;
+  border: solid #ffffff;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 5.87438px 31.33px rgba(155, 148, 148, 0.17);
+}
+.container-2 .small-container .BUS .image-small {
+  width: 48px;
+  height: 48px;
+  margin: 40px;
+}
+.container-2 .small-container .BUS .image-small .bus {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+.container-2 .small-container .BUS .image-small .rectangle-white {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+.container-2 .small-container .BUS h4 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  margin: 16px 113px 6px 40px;
+}
+.container-2 .small-container .BUS p {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 27px 45px 40px;
+}
+.container-2 .small-container .ROAD {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 237px;
+  border: solid #ffffff;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 5.87438px 31.33px rgba(155, 148, 148, 0.17);
+}
+.container-2 .small-container .ROAD .image-small {
+  width: 48px;
+  height: 48px;
+  margin: 40px;
+}
+.container-2 .small-container .ROAD .image-small .road {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+.container-2 .small-container .ROAD .image-small .rectangle-white {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+.container-2 .small-container .ROAD h4 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  margin: 16px 113px 6px 40px;
+}
+.container-2 .small-container .ROAD p {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  margin: 0 27px 45px 40px;
+}/*# sourceMappingURL=main-menu-2.css.map */

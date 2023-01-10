@@ -1,0 +1,163 @@
+.container-3 {
+  width: 1440;
+  height: 630px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-3 .text-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 230px;
+}
+.container-3 .text-up h4 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #f3b562;
+  text-align: center;
+  margin: 75px 0 17px 0;
+}
+.container-3 .text-up h1 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #647b64;
+  text-align: center;
+  margin: 0 0 56px 0;
+}
+.container-3 .three-fields {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 400px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  align-items: revert;
+  justify-content: center;
+}
+.container-3 .three-fields .dots {
+  position: absolute;
+  width: 214px;
+  height: 213px;
+  left: 105px;
+  top: 1892px;
+  z-index: 0;
+}
+.container-3 .three-fields .rec497 {
+  position: absolute;
+  width: 349px;
+  height: 182px;
+  left: 1091px;
+  top: 1920px;
+  z-index: 0;
+}
+.container-3 .three-fields .left {
+  z-index: 0;
+  border-radius: 8px;
+  width: 360px;
+  height: 338px;
+  background: rgb(240, 240, 240);
+  background: linear-gradient(0deg, rgb(240, 240, 240) 0%, rgb(255, 255, 255) 21%);
+}
+.container-3 .three-fields .left .python {
+  margin: 78px 0 0 50px;
+}
+.container-3 .three-fields .left h4 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  width: 206px;
+  height: 31px;
+  margin: 29.33px 0 6px 50px;
+}
+.container-3 .three-fields .left p {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  width: 260px;
+  height: 63px;
+  margin: 0 50px 72px 50px;
+}
+.container-3 .three-fields .center {
+  border-radius: 8px;
+  width: 360px;
+  height: 338px;
+  background: #647b64;
+}
+.container-3 .three-fields .center .iost {
+  margin: 78px 0 0 50px;
+}
+.container-3 .three-fields .center h4 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  width: 206px;
+  height: 31px;
+  margin: 29.33px 0 6px 50px;
+}
+.container-3 .three-fields .center p {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  width: 260px;
+  height: 63px;
+  margin: 0 50px 72px 50px;
+}
+.container-3 .three-fields .right {
+  z-index: 0;
+  border-radius: 8px;
+  width: 360px;
+  height: 338px;
+  background: rgb(240, 240, 240);
+  background: linear-gradient(0deg, rgb(240, 240, 240) 0%, rgb(255, 255, 255) 21%);
+}
+.container-3 .three-fields .right .stacks {
+  margin: 78px 0 0 50px;
+}
+.container-3 .three-fields .right h4 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  color: #333333;
+  width: 206px;
+  height: 31px;
+  margin: 29.33px 0 6px 50px;
+}
+.container-3 .three-fields .right p {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  width: 260px;
+  height: 63px;
+  margin: 0 50px 72px 50px;
+}/*# sourceMappingURL=main-menu-3.css.map */

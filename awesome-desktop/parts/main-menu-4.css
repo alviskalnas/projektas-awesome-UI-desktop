@@ -1,0 +1,94 @@
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 630px;
+  margin-top: 110px;
+}
+.container-4 .left-content {
+  width: 840px;
+  height: 740px;
+}
+.container-4 .left-content .rec498 {
+  position: absolute;
+  width: 546px;
+  height: 561px;
+  left: 215px;
+  top: 2280px;
+}
+.container-4 .left-content .people {
+  position: absolute;
+  left: 140px;
+}
+.container-4 .right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 600px;
+  height: 740px;
+  margin-left: 140px;
+}
+.container-4 .right-content h3 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0 0 17px 0;
+  color: #f3b562;
+}
+.container-4 .right-content h1 {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  color: #647b64;
+}
+.container-4 .right-content p {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.04em;
+  color: #4f4f4f;
+  width: 450px;
+  height: 100px;
+  margin: 40px 0 40px 0;
+}
+.container-4 .right-content .paragraph-button {
+  width: 350px;
+  height: 73px;
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-4 .right-content .paragraph-button h3 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125.5%;
+  letter-spacing: 0.155em;
+  text-transform: uppercase;
+  color: #fefefe;
+  width: 176px;
+  height: 20px;
+  padding-left: 29px;
+  margin: 0 0 -4px 0;
+}
+.container-4 .right-content .paragraph-button .arrow {
+  width: 166px;
+}
+.container-4 .right-content .paragraph-button .arrow .arrow-right {
+  display: flex;
+  flex-direction: row;
+  width: 22px;
+  height: 15px;
+  margin-left: 130px;
+}/*# sourceMappingURL=main-menu-4.css.map */
